@@ -5,6 +5,11 @@
 		"dir": "https://github.com/punkestu/missing-semester/blob/main/markdown/content.md?raw=true"
 	},
 	{
+		"slug": "git",
+		"title": "Git",
+		"dir": "https://github.com/punkestu/missing-semester/blob/main/git/content.md?raw=true"
+	},
+	{
 		"slug": "http",
 		"title": "HTTP",
 		"dir": "https://github.com/punkestu/missing-semester/blob/main/http/content.md?raw=true"
