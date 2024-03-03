@@ -13,5 +13,10 @@
 		"slug": "http",
 		"title": "HTTP",
 		"dir": "https://github.com/punkestu/missing-semester/blob/main/http/content.md?raw=true"
+	},
+	{
+		"slug": "vim",
+		"title": "Vim",
+		"dir": "https://github.com/punkestu/missing-semester/blob/main/vim/content.md?raw=true"
 	}
 ]
