@@ -2,6 +2,9 @@
 
 Missing semester akan bantu kamu mempelajari apa saja yang akan kalian gunakan saat kuliah dan yang perlu dikuasai programmer TAPI TIDAK PERNAH DIAJARKAN DI KELAS
 
+# Repository materi
+[github.com/punkestu/missing-semester](https://github.com/punkestu/missing-semester)
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
