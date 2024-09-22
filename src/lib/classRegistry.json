@@ -33,5 +33,10 @@
 		"slug": "daemon",
 		"title": "Daemon",
 		"dir": "https://github.com/punkestu/missing-semester/blob/main/daemon/content.md?raw=true"
+	},
+	{
+		"slug": "ssh",
+		"title": "SSH",
+		"dir": "https://github.com/punkestu/missing-semester/blob/main/ssh/content.md?raw=true"
 	}
 ]
