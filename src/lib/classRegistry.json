@@ -18,5 +18,10 @@
 		"slug": "vim",
 		"title": "Vim",
 		"dir": "https://github.com/punkestu/missing-semester/blob/main/vim/content.md?raw=true"
+	},
+	{
+		"slug": "frame-buffer",
+		"title": "Frame Buffer",
+		"dir": "https://github.com/punkestu/missing-semester/blob/main/frame-buffer/content.md?raw=true"
 	}
 ]
