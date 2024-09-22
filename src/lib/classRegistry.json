@@ -28,5 +28,10 @@
 		"slug": "unix-domain-socket",
 		"title": "UNIX Domain Socket (UDS)",
 		"dir": "https://github.com/punkestu/missing-semester/blob/main/unix-domain-socket/content.md?raw=true"
+	},
+	{
+		"slug": "daemon",
+		"title": "Daemon",
+		"dir": "https://github.com/punkestu/missing-semester/blob/main/daemon/content.md?raw=true"
 	}
 ]
