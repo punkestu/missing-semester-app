@@ -23,5 +23,10 @@
 		"slug": "frame-buffer",
 		"title": "Frame Buffer",
 		"dir": "https://github.com/punkestu/missing-semester/blob/main/frame-buffer/content.md?raw=true"
+	},
+	{
+		"slug": "unix-domain-socket",
+		"title": "UNIX Domain Socket (UDS)",
+		"dir": "https://github.com/punkestu/missing-semester/blob/main/unix-domain-socket/content.md?raw=true"
 	}
 ]
