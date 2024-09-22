@@ -1,7 +1,18 @@
 <script>
+	// @ts-nocheck
 	import classRegistry from '$lib/classRegistry.json';
 	import githubIcon from '$lib/github-mark-white.svg';
+	import { onMount } from 'svelte';
+	import { subscribeIsDoneNotification } from '../notifier/isdone';
 	let search = '';
+	let listIsDone = {};
+	onMount(() => {
+		fetchListIsDone();
+		subscribeIsDoneNotification(fetchListIsDone);
+	});
+	function fetchListIsDone() {
+		listIsDone = JSON.parse(localStorage.getItem('isDone') || '{}');
+	}
 </script>
 
 <aside class="w-1/4 h-screen overflow-y-auto px-2 py-1">
@@ -22,7 +33,12 @@
 		{#each classRegistry.filter((r) => r.title
 				.toLowerCase()
 				.includes(search.toLowerCase())) as theClass}
-			<a href="/{theClass.slug}" class="hover:underline">{theClass.title}</a>
+			<div class="flex gap-1">
+				{#if listIsDone[theClass.slug] === '1'}
+					✅
+				{/if}
+				<a href="/{theClass.slug}" class="hover:underline">{theClass.title}</a>
+			</div>
 		{/each}
 	</div>
 </aside>
